@@ -76,7 +76,7 @@ flagman казино скачать
 
 Количество слов: 2200
 Язык: Russian 
-Создаем блок с отзывами + EEAT [LINK]([url](https://docs.google.com/document/d/1-VGf1UnShHhgFTeFYlMh9JhH-yoqpeLJfmf0A0-hYMQ/edit?tab=t.0#heading=h.14jxwvoa5kp0))
+Создаем блок с отзывами + EEAT  [link]([url](https://docs.google.com/document/d/1-VGf1UnShHhgFTeFYlMh9JhH-yoqpeLJfmf0A0-hYMQ/edit?tab=t.0)) 
 Структура
 
 !!!Пожалуйста, вставьте МТ, МD в начало текста без каких–либо изменений!
