@@ -1,6 +1,44 @@
 # intfakti.ru
 ТЗ intfakti.ru флагман казино
 
+!!! UPD
+1) всі посилання в head у файлы index.html мають бути https://www.intfakti.ru/ (сайт на якому буде контент). також змінити у sitemap та robots.txt на правильне посилання + дати сьогоднішні 
+2) на сторінці /ru-ru/ контент такий самий, як в index.html але:
+   - <html lang="ru-RU">
+   - шляхи до файлів мають бути (приклад)
+         <link rel="stylesheet" href="/style.css">
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+    для зображень (приклад) <img src="/img/logo.webp" alt="Chicken Road Logo" width="100" height="80">
+через "/" 
+аналогічні шляхи для стилів, фавікону, зоюражень мають бути у технічних сторінках (about-us, prrivacy-policy та інші) 
+3) прошу звернути увагу на шляхи до технічних сторінок в файлі index.html 
+
+зараз ось так:
+        <div class="flex-wrapper">
+            <a href="/about/">О нас</a>
+            <a href="/privacy-policy/">Политика конфиденциальности</a>
+            <a href="/terms/">Условия и положения</a>
+            <a href="/responsible-gambling/">Ответственная игра</a>
+            <a href="/cookies/">Политика cookie</a>
+        </div>
+
+має бути:
+
+			<div class="flex-container">
+				<a href="/about-us/">О нас</a>
+				<a href="/privacy-policy/">Политика конфиденциальности</a>
+				<a href="/terms-and-conditions/">Пользовательское соглашение</a>
+				<a href="/responsible-gambling/">Ответственная игра</a>
+				<a href="/cookie-policy/">Политика использования cookie</a>
+			</div>
+
+4) вітрина казино ( <div class="casino-vitrina">) має містити 1 карточку з лого (лого як в хедері logo.webp)
+5) всі шляхи по типу /go/ /app/ /demo/ (можливо є ще якісь -  то їх також змінити) міняємо  на /play/ 
+6) у фолдері /play/ посилання має бути https://aahyperpath.top/4zty7T
+7) лого та фавікон я завнтажила правильні (з картинками у index.html все ок - їх не потрібно змінювати)
+   
+   
+
 Без витрины казино (только папка play ссылку поставить https://aahyperpath.top/4zty7T)
 Логотип и фавикон flagman casino
 
@@ -11,7 +49,6 @@
 
 [удобный сайт для конвертации (бесплатно) ]([url](https://cloudinary.com/tools/png-to-webp))
 
-ссылка в sitemap, robots https://intfakti.ru/ 
 
 https://intfakti.ru/ <html lang="ru">
 https://intfakti.ru/ru-ru/ <html lang="ru-RU">
